@@ -1,5 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+/* SECTION Full-Stack-Page  */
+
+.Full-Stack-Page {
+  width: 100%;
+  height: 100%;
+  background-image: url(/img/developer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Full-Stack-Page-text {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+
+.Full-Stack-Page span {
+  font-size: 72px;
+  color: white;
+}
+
+.Full-Stack-Page h3 {
+  font-size: 36px;
+  color: white;
+}
+
+.Full-Stack-Page h4 {
+  font-size: 72px;
+  color: white;
+}
+
+/* SECTION Dark-Page  */
+
+.Dark-Page {
+  width: 100%;
+  height: 279px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Dark-Page h4 {
+  font-size: 40px;
+  color: white;
+}
+
+.Dark-Page span {
+  font-size: 72px;
+  color: white;
+}
+
+/* SECTION White-Page */
+
+.White-Page {
+  background-color: white;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.cards {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 30%;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+/* SECTION CONTACT & ABOUT */
+
+.Contact-About {
+  width: 100%;
+  height: 378px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.Contact {
+  border: 1px solid black;
+  padding: 50px 60px;
+  background-color: #515603;
+  color: white;
+}
+
+.Contact h5,
+.About h5 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.Contact p,
+.About p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.About {
+  border: 1px solid black;
+  padding: 50px 60px;
+  background-color: #722300;
+  color: white;
+}
+
+/* SECTION Black-Last  */
+
+.Black-Last {
+  height: 138px;
+  background-color: black;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+
+.Black-Last p {
+  font-size: 24px;
 }
